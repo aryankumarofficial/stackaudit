@@ -1,5 +1,5 @@
-import { defineConfig } from "vitest/config";
-import path from "path";
+import { defineConfig } from "vitest/config"
+import path from "path"
 
 export default defineConfig({
   test: {
@@ -9,14 +9,14 @@ export default defineConfig({
     css: true,
     coverage: {
       provider: "v8",
-      reporter: ["text", "html"]
+      reporter: ["text", "html"],
     },
-    include: ["src/**/*.{test,spec}.{ts,tsx}"]
+    include: ["src/**/*.{test,spec}.{ts,tsx}"],
   },
 
   resolve: {
     alias: {
-      "@": path.resolve(__dirname, "./src")
-    }
-  }
+      "@": path.resolve(__dirname, "./src"),
+    },
+  },
 })

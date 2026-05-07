@@ -1,14 +1,13 @@
 // example test for setup testings
-import { describe, it, expect } from "vitest";
+import { describe, it, expect } from "vitest"
 
 describe("ChatGPT recommendation logic", () => {
-    it("recommends plus for solo users", () => {
-        const seats = 1;
-        const currentPlan = "team";
+  it("recommends plus for solo users", () => {
+    const seats = 1
+    const currentPlan = "team"
 
-        const shouldDowngrade =
-            currentPlan === "team" && seats <= 2;
+    const shouldDowngrade = currentPlan === "team" && seats <= 2
 
-        expect(shouldDowngrade).toBe(true);
-    });
-});
+    expect(shouldDowngrade).toBe(true)
+  })
+})
