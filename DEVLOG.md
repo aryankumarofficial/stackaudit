@@ -5,3 +5,11 @@
 **What I learned:** Project initialization workflow, Bun formatter configuration, GitHub Actions setup for CI/CD, and component library structure patterns.
 **Blockers / what I'm stuck on:** Had a brief blocker with a Prettier issue failing the initial formatting checks, but resolved it by aligning the configuration and running the Bun formatter.
 **Plan for tomorrow:** Begin implementing core features based on the researched pricing models.
+
+
+## Day 2: 2026-05-08
+
+**Hours Worked:** 6
+**What I did:** Implemented core features based on researched pricing models. Defined data types, set up database/UI/charts/LLM packages, wrote base rules from data, combined rules with data, created and ran tests using route handlers, wrote small pricing data for testing, and updated the homepage.
+**What I learned:** Type definition best practices, package structuring for monorepos, rule-based system implementation, route handler testing patterns.
+**Plan for tomorrow:** Continue feature implementation focusing on user authentication and data visualization components.
