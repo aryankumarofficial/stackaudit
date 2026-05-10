@@ -20,3 +20,10 @@
 **What I did:** Leave for DSA warmups.
 **What I learned:** N/A
 **Plan for tomorrow:** Resume feature implementation.
+
+## Day 4: 2026-05-10
+
+**Hours Worked:** 0
+**What I did:** Leave for DSA warmups.
+**What I learned:** N/A
+**Plan for tomorrow:** Resume feature implementation.
